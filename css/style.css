@@ -220,11 +220,38 @@ background-color: #F8F8FF;
   
 </div>
 </section> */
-@media screen and (max-width:768px)  {
+@media screen and (min-width:768px)  {
 .kartu .container .row .card{
   margin-bottom: 10%;
 }
+
 }
+@media screen and (min-width:400px) and (max-width:990px){
+  .main{
+    height: 150vh;
+  }
+}
+@media screen and (min-width:360px) and (max-width:375px){
+  .main{
+    height: 130vh;
+  }
+}
+@media screen and (min-width:390px) and (max-width:395px){
+  .main{
+    height: 110vh;
+  }
+}
+
+/* @media screen and (max-width:992px){
+  .main{
+    height: 130vh;
+  }
+} */
+/* @media screen and (max-width:415px) {
+  .main{
+    height:100vh;
+  }
+} */
 
 /* @media screen and (max-width:992px){
   .main{
