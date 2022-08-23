@@ -224,13 +224,10 @@ background-color: #F8F8FF;
 .kartu .container .row .card{
   margin-bottom: 10%;
 }
-.main{
-  height: 150vh;
-}
 }
 
-@media screen and (max-width:992px){
+/* @media screen and (max-width:992px){
   .main{
     height: 150vh;
   }
-}
+} */
