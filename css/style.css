@@ -220,12 +220,17 @@ background-color: #F8F8FF;
   
 </div>
 </section> */
-@media screen and (max-width:768px) {
-
+@media screen and (max-width:768px)  {
 .kartu .container .row .card{
-  /* margin-left: 20%; */
   margin-bottom: 10%;
-  /* justify:center; */
-  /* text-align: center; */
 }
+.main{
+  height: 150vh;
+}
+}
+
+@media screen and (max-width:992px){
+  .main{
+    height: 150vh;
+  }
 }
